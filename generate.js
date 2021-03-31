@@ -30,6 +30,11 @@ function filtererForLetter(letter) {
   };
 }
 
+fs.writeFileSync('index.txt', `$name : NPM Expansions
+$description : Generates random NPM expansions
+$author : Yash Singh
+$button : Expand!`)
+
 function pushList(letter, partOfSpeech) {
   fs.writeFileSync(
     'index.txt',
