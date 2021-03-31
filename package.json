@@ -1,0 +1,18 @@
+{
+  "name": "npm-expansions-randomgen",
+  "version": "1.0.0",
+  "description": "Generates an npm expansion using randomgen",
+  "main": "index.txt",
+  "keywords": [
+    "randomgen",
+    "npm-expansions"
+  ],
+  "author": "Yash Singh",
+  "license": "MIT",
+  "dependencies": {
+    "nouns": "^1.0.1"
+  },
+  "scripts": {
+    "build": "node generate.js"
+  }
+}
